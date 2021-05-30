@@ -36,9 +36,9 @@ I'm a powerful group management bot 🤖
 
 You can find my list of available commands with /help .
  
-See [Basic Configuration Checklist](https://t.me/HaritaNews/10) on how to secure your group.
+See [Basic Configuration Checklist](https://t.me/Perfect_vazha) on how to secure your group.
 
-See the Source code of this bot [Source Code](https://github.com/Avishekbhattacharjee/Harita-Robot)
+See the Source code of this bot [Source Code](https://Perfect_vazha)
 """
 
 HELP_STRINGS = """
@@ -148,9 +148,9 @@ def start(bot: Bot, update: Update, args: List[str]):
             chat = update.effective_chat  # type: Optional[Chat]
             text = PM_START_TEXT
     
-            keyboard = [[InlineKeyboardButton(text=tld(chat.id, "Add Me To Your Group ♥️"), url="t.me/HaritaRobot?startgroup=true")]]
+            keyboard = [[InlineKeyboardButton(text=tld(chat.id, "Add Me To Your Group ♥️"), url="t.me/Lillyprobot?startgroup=true")]]
 
-            keyboard += [[InlineKeyboardButton(text=tld(chat.id, "Updates ❓"), url="https://t.me/HaritaNews"), InlineKeyboardButton(text=tld(chat.id, "🌍 Support Chat 🌍"), url="https://t.me/HaritaSupport")]]
+            keyboard += [[InlineKeyboardButton(text=tld(chat.id, "Updates ❓"), url="https://t.me/Perfect_vazha"), InlineKeyboardButton(text=tld(chat.id, "🌍 Support Chat 🌍"), url="https://t.me/Unitedkeralachat")]]
             
             keyboard += [[InlineKeyboardButton(text="My Super Commands ⚙️", callback_data="help_back")]]
             
